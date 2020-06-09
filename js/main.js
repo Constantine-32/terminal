@@ -390,7 +390,7 @@ function loadFileSystem() {
 }
 
 function saveFileSystem() {
-  localStorage.setItem('commandHistory', JSON.stringify(fileSystem))
+  localStorage.setItem('fileSystem', JSON.stringify(fileSystem))
 }
 
 function loadCommandHistory() {
